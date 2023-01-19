@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+   <title>String  
+   
+   </title>
+</head>
+<body>
+
+<h2>String letters in Alphabetical order</h2>
+
+   <div id="result"></div>
+   <script>
+      function alphaOrder(str){
+         var arr = str.split("");
+         arr.sort();
+         var sortedStr = arr.join("");
+         return sortedStr
+      }
+      document.getElementById("result").innerHTML = alphaOrder("lemin")
+   </script>
+</body>
+</html>
+
